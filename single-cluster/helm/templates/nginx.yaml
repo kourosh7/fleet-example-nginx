@@ -3,9 +3,14 @@ kind: Deployment
 metadata:
   name: nginx
 spec:
+  selector:
+    matchLabels:
+      app: kourosh-nginx
   replicas: {{ .Values.replicas }}
   template:
     metadata:
+      labels:
+        app: kourosh    
     spec:
       containers:
       - name: nginx

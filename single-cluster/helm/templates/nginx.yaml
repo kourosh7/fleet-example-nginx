@@ -10,7 +10,7 @@ spec:
   template:
     metadata:
       labels:
-        app: kourosh    
+        app: kourosh-nginx
     spec:
       containers:
       - name: nginx

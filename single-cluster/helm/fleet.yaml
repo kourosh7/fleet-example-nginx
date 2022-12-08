@@ -34,4 +34,4 @@ helm:
 dependsOn:
   - selector:
       matchLabels:
-        name: kourosh
+        flavor: km7

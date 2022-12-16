@@ -36,3 +36,4 @@ dependsOn:
       matchLabels:
         name: kourosh
         flavor: km7
+        another: "label"

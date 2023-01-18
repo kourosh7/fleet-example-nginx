@@ -31,9 +31,9 @@ helm:
   # values:
   # replicas: 2
 
-dependsOn:
-  - selector:
-      matchLabels:
-        name: kourosh
-        flavor: km7
-        another: "label"
+#dependsOn:
+#  - selector:
+#      matchLabels:
+#        name: kourosh
+#        flavor: km7
+#        another: "label"
